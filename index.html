@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/Css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="src/Css/style.css" />
+   <script defer src="src/Js/swiper-bundle.min.js"></script>
+   <!--  For Email  -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<!--  Scroll Reveal -->
+ <script defer src="src/Js/scrollreveal.min.js"></script>
+   <script defer src="src/Js/main.js"></script>
+ <link rel="icon" href="src/img/profile.png">
+   <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Syed </a>
+        <div class="nav__menu " id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"
+                ><i class="ri-home-5-line"></i>Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"
+                ><i class="ri-trophy-line"></i>Skills</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link"
+                ><i class="ri-book-open-line"></i>Qualification</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link"
+                ><i class="ri-briefcase-line"></i>Services</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link"
+                ><i class="ri-image-line"></i>Projects</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="ri-chat-3-line"></i>Contact</a
+              >
+            </li>
+          </ul>
+          <!-- Close Button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <!-- Theme change Button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+             <!-- <i class="ri-sun-line"></i> -->
+          <!-- Button Toggle  -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+              <div class="home__data grid">
+                <h1 class="home__title">
+                  Hi,I am Syed Moazam Ali <br>
+                  Frontend Web Developer
+                </h1>
+                <div class="home__blob grid">
+                  <div class="home__perfil">
+                    <img src="src/img/pic1.png" alt="Syed Moazam Ali">
+                  </div>
+                   <img src="src/img/shape-wawes.svg" alt="" class="home__shape-waves"> 
+                  <img src="src/img/shape-circle.svg" alt="" class="home__shape-circles"> 
+                </div>
+                <ul class="home__social">
+                  <a href="https://www.linkedin.com/in/syedmoazamali/" target="_blank" class="home__link"><i class="ri-linkedin-box-line"></i></a>
+                  <a href="https://github.com/MoazamAli45" target="_blank" class="home__link"><i class="ri-github-line"></i></a>
+                  <a href="https://www.instagram.com/syed.moazam_ali/" target="_blank" class="home__link"><i class="ri-instagram-line"></i></a>
+                </ul>
+               </div>
+               <!-- Home Info 1 -->
+               <div class="home__info"><div>
+                <h3 class="home__info-title">
+                  BIOGRAPHY
+                </h3>
+                <p class="home__info-description">
+                  Hi, I'm Syed Moazam Ali,Frontend Web Developer.
+                  Passionate about learning innovative technology.
+                </p></div>
+                <div>
+                <h3 class="home__info-title">CONTACT</h3>
+                <p class="home__info-description">
+                  syedmoazamali4321@gmail.com
+                </p></div>
+                <div>
+                <h3 class="home__info-title">
+                  SERVICES
+                </h3>
+                <p class="home__info-description">
+                  WEB Development<br>
+                  Web Design
+                </p></div>
+
+               </div>
+               <!-- Home Info 2 -->
+               <div class="home__info">
+                <div>
+                  <h3 class="home__info-title">
+                    PROJECTS COMPLETED
+                  </h3>
+                  <p class="home__info-number">
+                     08+
+                  </p>
+                </div>
+               </div>
+            </div>
+
+      </section>
+<!--  Skills   -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">
+          Skills
+        </h2>
+        <span class="section__subtitle">
+          My Favourite Skills
+        </span>
+        <div class="skills__container container grid section__border">
+          <!--  Skills  -->
+              <div class="skills__content">
+                <h3 class="skills__title">
+                  <i class="ri-braces-line"></i>Frontend Developer
+                </h3>
+              <div class="skills__info">
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/html-1.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">HTML
+                                <span class="skills__subtitle">
+                                        Intermediate                                  
+                                </span>
+                              </h3>
+                          </div>
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/css-3.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">CSS
+                                <span class="skills__subtitle">
+                                  Advanced                                  
+                                </span>
+                              </h3>
+                          </div>
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/sass-1.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">Sass
+                                
+                              </h3>
+                          </div>
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/logo-javascript.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">JavaScript
+                                <span class="skills__subtitle">
+                                    Intermediate
+                                </span>
+                              </h3>
+                          </div>
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/git-icon.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">Git
+                                <span class="skills__subtitle">
+                                    Intermediate
+                                </span>
+                              </h3>
+                          </div>
+                        </div>
+              </div>
+              <!-- Skills 2 -->
+              <div class="skills__content">
+                <h3 class="skills__title">
+                  <i class="ri-pantone-line"></i>Web Designer
+                </h3>
+              <div class="skills__info">
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/canva-1.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">Canva
+                                <span class="skills__subtitle">
+                                        Intermediate                                  
+                                </span>
+                              </h3>
+                          </div>
+                         
+                          <div class="skills__data">
+                            <div class="skills__blob">
+                              <img src="src/img/adobe-photoshop-2.svg" alt="skills image">
+                            </div>
+                              <h3 class="skills__name">Photoshop
+                                <span class="skills__subtitle">
+                                        Basic                                  
+                                </span>
+                              </h3>
+                          </div>
+              </div>
+
+            </div>
+      </section>
+      <!-- Qualification -->
+      <section class="qualification section" id="qualification">
+           <h2 class="section__title">Qualification</h2>
+           <span class="section__subtitle">Experience & Education</span>
+     <div class="qualification__container container grid section__border">
+            <!-- Qualification 1 -->
+            <div class="qualification__content">
+                 <h3 class="qualification__title">
+                  <i class="ri-pencil-ruler-2-line"></i> Education
+                 </h3>
+                 <div class="qualifiaction__info">
+                   
+                       <h3 class="qualification__name">
+                          Softaware Engineering (Continue)
+                   </h3>
+                   <span class="qualification__country">UET Taxila</span>
+                   <span class="qualification__year">2021-2025</span>
+                 </div>            
+                   <div class="qualifiaction__info">
+                <h3 class="qualification__name">
+                 Fsc(Pre-Engineering)  
+                </h3>
+                <span class="qualification__country">Fauji Foundation College Fateh Jang,Attock</span>
+                <span class="qualification__year">2019-2021</span>
+              </div>
+       
+          
+              <div class="qualifiaction__info">
+                <h3 class="qualification__name">
+                 Matric (Science)  
+                </h3>
+                <span class="qualification__country">GBHS No 2 Fateh Jang,Attock</span>
+                <span class="qualification__year">2017-2019</span>
+              </div>
+        </div>
+        <div class="qualification__content">
+          <h3 class="qualification__title">
+            <i class="ri-award-line"></i> Certification
+          </h3>
+          <div class="qualifiaction__info">
+            
+                <h3 class="qualification__name">
+                 JavaScript
+            </h3>
+            <span class="qualification__country">LinkedIn</span>
+            <span class="qualification__year">2022</span>
+          </div>
+          <div class="qualifiaction__info">
+            <h3 class="qualification__name">
+                 Creating a Responsive Web Design          
+                 </h3>
+            <span class="qualification__country">LinkedIn</span>
+            <span class="qualification__year">2022</span>
+          </div>
+     </div> 
+    </div>
+    <img src="src/img/shape-circle.svg" alt="Qualification Cicles" class="qualification__img">
+      </section>
+      <section class="services section" id="services">
+        <!--  Services -->
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+  
+        <div class="services__container container grid section__border">
+          <div class="services__card">
+            <i class="ri-layout-line"></i>
+            <h2 class="services__title">
+               UI/UX <br>Design
+            </h2>
+               <p class="services__description">
+                Services that provides the best quality and at the request of the client,with professional work and customer support.
+
+               </p>
+                <div class="services__border"></div>
+              </div>
+          <div class="services__card">
+            <i class="ri-code-line"></i>
+            <h2 class="services__title">
+               Web <br> Development
+            </h2>
+               <p class="services__description">
+                Services that provides the best quality and at the request of the client,with professional work and customer support.
+
+               </p>
+                <div class="services__border"></div>
+              </div>
+        </div>
+  
+      </section>
+      <!-- Projects -->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">
+             Projects
+        </h2>
+        <span class="section__subtitle">
+          Most Recent work
+                </span>
+      <div class="container section__border">
+            <div class="projects__container swiper">
+           
+              <div class="swiper-wrapper">  <!-- Contain all slides without btn -->
+
+                        <!-- Project 1 -->
+                  <div class="projects__content swiper-slide ">
+                            <img src="src/img/project1.png" alt="Project Image" class="projects__img">
+                            <div>
+                              <span class="projects__subtitle">Frontend Mentor</span>
+                              <h1 class="projects__title">Webpage</h1>
+
+                              <a href="https://frontendmentor23.netlify.app/" target="_blank" class="progress__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!-- Project 2 -->
+                          
+                          <div class="projects__content swiper-slide">
+                            <img src="src/img/Project3.png" alt="Project Image" class="projects__img">
+                            <div>
+                              <span class="projects__subtitle">Nexter</span>
+                              <h1 class="projects__title">Website</h1>
+
+                              <a href="https://moazamali45.github.io/Nexter-Project/" target="_blank" class="progress__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                              </a>
+                            
+                            </div>
+                          </div>
+                          <!-- Project 3 -->
+                          <div class="projects__content swiper-slide">
+                            <img src="src/img/Project 2.png" alt="Project Image" class="projects__img">
+                            <div>
+                              <span class="projects__subtitle">Natours</span>
+                              <h1 class="projects__title">WebPage</h1>
+
+                              <a href="https://moazamali45.github.io/Natours-project/" target="_blank" class="progress__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                              </a>
+                            </div>
+                      </div>
+                          <!-- Project 4 -->
+                          <div class="projects__content swiper-slide">
+                            <img src="src/img/Project4.png" alt="Project Image" class="projects__img">
+                            <div>
+                              <span class="projects__subtitle">Bankist</span>
+                              <h1 class="projects__title">Modern Website</h1>
+
+                              <a href="https://moazamali45.github.io/Bankist-Website/" target="_blank" class="progress__button">
+                                View demo <i class="ri-arrow-right-line"></i>
+                              </a>
+                            </div>
+                          </div>
+                </div>
+                      <!-- Swiper Button -->
+                      <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                      </div>
+                      <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                      </div>
+                      <!-- Swiper Pagination -->
+                      <div class="swiper-pagination">
+
+                      </div>
+                </div>
+        </div>
+      </section>
+      <section class="contact section" id="contact">
+                  <h2 class="section__title">Contact me</h2>
+                  <span class="section__subtitle">Get in touch</span>
+              <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                  <h3 class="contact__title">
+                    <i class="ri-chat-3-line"></i> Talk to me 
+                  </h3>
+                  <div class="contact__info">
+                    <div class="contact__data">
+                      <span class="contact__data-title">
+                        Email
+                      </span>
+                      <span class="contact__data-info">
+                        syedmoazamali4321@gmail.com
+                      </span>
+                  </div>
+                    <div class="contact__data">
+                      <span class="contact__data-title">
+                        Whatsapp
+                      </span>
+                      
+                      <a href="https://api.whatsapp.com/send?phone=9203024339972&text=Hello,more%20information" target="_blank" class="contact__anchor">
+                        <i class="ri-whatsapp-line wp "></i>
+                      </a>
+                    </div>
+                    <div class="contact__data">
+                      <span class="contact__data-title">
+                       Facebook
+                      </span>
+                      <a href="https://www.facebook.com/syed.moazamali.96"  traget="_blank"class="contact__anchor">
+                        <i class="ri-facebook-circle-fill fb"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact__content">
+                  <h3 class="contact__title">
+                    <i class="ri-send-plane-line"></i>Write me your project
+                  </h3>
+                   <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__form-div">
+                      <label for="contact-name" class="contact__form-tag">Name</label>
+                      <input type="text" name="user_name"  required placeholder="Write Your Name "class="contact__form-input" id="contact-name">
+                    </div>
+                    <div class="contact__form-div">
+                      <label for="contact-email" class="contact__form-tag">Email</label>
+                      <input type="email" name="user_email"  required placeholder="Write Your Email" class="contact__form-input" id="contact-email">
+                    </div>
+                    <div class="contact__form-div  contact__form-area">
+                      <label  class="contact__form-tag">Project</label>
+                      <!-- same as like in emailjs template -->
+                      <textarea name="user_project" id="contact-project" placeholder="Write Your Project"  class="contact__form-input"></textarea>
+                    </div>
+                    <p class="contact__message" id="contact-message">
+
+                    </p>
+                    <button type="submit" class="contact__button">
+                      Submit <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                   </form>
+
+                </div>
+              </div> 
+
+                </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Syed</h1>
+        <p>
+          Frontend Developer
+        </p>
+        <ul class="footer__list">
+          <li><a href="#home" class="footer__link">Home</a></li>
+          <li><a href="#skills" class="footer__link">Skills</a></li>
+          <li><a href="#projects" class="footer__link">Projects</a></li>
+        </ul>
+     <ul class="footer__social">
+      <a href="https://www.linkedin.com/in/syedmoazamali/" target="_blank" class="footer__social-link"><i class="ri-linkedin-box-line"></i></a>
+      <a href="https://github.com/MoazamAli45" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+      <a href="https://www.instagram.com/syed.moazam_ali/" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+     </ul>
+      <span class="footer__copy">
+        &#169; Copyright Syed Moazam Ali. All right reserved
+      </span>
+       </div>
+   <a href="#" class="scroll-up" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+   </a>
+    </footer>
+  </body>
+</html>
