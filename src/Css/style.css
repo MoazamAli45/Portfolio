@@ -577,6 +577,14 @@ header {
 .contact__anchor .wp:hover {
   color: #25d366;
 }
+.fiverr{
+  width:50px;
+  height:50px;
+
+}
+.fiverr:hover{
+  color: #25d366;
+}
 .contact__button {
   width: max-content;
   display: inline-flex;
@@ -1158,3 +1166,5 @@ body.dark-theme {
     margin-top: 5rem;
   }
 }
+
+
