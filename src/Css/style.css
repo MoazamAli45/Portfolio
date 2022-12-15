@@ -885,6 +885,19 @@ body.dark-theme {
   }
 }
 @media screen and (min-width: 767px) {
+  .home__blob {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    padding: auto;
+  }
+  .home__perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
   .home__container {
     grid-template-columns: 1fr 2fr 1fr;
   }
@@ -900,7 +913,7 @@ body.dark-theme {
   .home__info {
     margin-top: 10rem;
   }
-  .home__blob {
+  /* .home__blob {
     position: relative;
     width: 200px;
     height: 290px;
@@ -910,7 +923,7 @@ body.dark-theme {
     border-radius: 6.25rem;
     place-items: center;
     transition: background 0.4s; /* For dark mode animation*/
-  }
+ /* }
   .home__perfil {
     width: 170px;
     height: 260px;
@@ -918,7 +931,7 @@ body.dark-theme {
     border-radius: 5.5rem;
     overflow: hidden;
     display: flex;
-  }
+  } */
   .skills__container,
   .qualification__container,
   .services__container,
@@ -950,6 +963,19 @@ body.dark-theme {
 }
 /*  For Larger Devices */
 @media screen and (min-width: 1023px) {
+  .home__blob {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    padding: auto;
+  }
+  .home__perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
   .header {
     top: 0;
     bottom: initial;
@@ -1018,6 +1044,19 @@ body.dark-theme {
   box-shadow: 0 6px 24px hsl(207, 24%, 8%, 0.6);
 }
 @media screen and (min-width: 1043px) {
+  .home__blob {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    padding: auto;
+  }
+  .home__perfil {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
   .container {
     margin-inline: auto;
   }
@@ -1032,7 +1071,7 @@ body.dark-theme {
   .home__title {
     font-size: var(--biggest-font);
   }
-  .home__blob {
+  /* .home__blob {
     width: 400px;
     height: 580px;
     border-radius: 12.5rem;
@@ -1044,7 +1083,21 @@ body.dark-theme {
   }
   .home__perfil img {
     width: 300px;
+  } */
+  .home__blob {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    padding: auto;
   }
+  .home__perfil {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
   .home__shape-waves {
     width: 100px;
     left: -4rem;
