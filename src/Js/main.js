@@ -153,7 +153,7 @@ if (selectedTheme) {
   );
 }
 
-// Activating the theme and Deactivating theme in portfolio
+// Activating the theme and Deactivating theme 
 themeButton.addEventListener("click", function () {
   document.body.classList.toggle(darkTheme);
   themeButton.classList.toggle(iconTheme);
