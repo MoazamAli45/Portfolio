@@ -577,12 +577,11 @@ header {
 .contact__anchor .wp:hover {
   color: #25d366;
 }
-.fiverr{
-  width:50px;
-  height:50px;
-
+.fiverr {
+  width: 50px;
+  height: 50px;
 }
-.fiverr:hover{
+.fiverr:hover {
   color: #25d366;
 }
 .contact__button {
@@ -830,19 +829,19 @@ body.dark-theme {
     justify-self: center;
   }
 }
-@media screen and (min-width:340px){
-  .home__blob{
-    width:220px;
-    height:220px;
+@media screen and (min-width: 340px) {
+  .home__blob {
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     padding: auto;
   }
-  .home__perfil{
-       width:200px;
-       height:200px;
-       border-radius: 50%;
-       display: flex;
-       justify-content: center;
+  .home__perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
   }
 }
 /*  Medium Screen */
@@ -923,7 +922,7 @@ body.dark-theme {
     border-radius: 6.25rem;
     place-items: center;
     transition: background 0.4s; /* For dark mode animation*/
- /* }
+  /* }
   .home__perfil {
     width: 170px;
     height: 260px;
@@ -1097,7 +1096,7 @@ body.dark-theme {
     display: flex;
     justify-content: center;
   }
-  
+
   .home__shape-waves {
     width: 100px;
     left: -4rem;
@@ -1219,5 +1218,3 @@ body.dark-theme {
     margin-top: 5rem;
   }
 }
-
-

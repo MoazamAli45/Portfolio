@@ -153,7 +153,7 @@ if (selectedTheme) {
   );
 }
 
-// Activating the theme and Deactivating theme
+// Activating the theme and Deactivating theme in portfolio
 themeButton.addEventListener("click", function () {
   document.body.classList.toggle(darkTheme);
   themeButton.classList.toggle(iconTheme);
@@ -181,7 +181,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 400,
-  // reset:true    /*Animation repeat*/
+  // reset: true /*Animation repeat*/,
 });
 
 sr.reveal(".home__data,.projects__container,.footer__container");
